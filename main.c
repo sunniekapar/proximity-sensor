@@ -158,7 +158,7 @@ void Error_Handler(void)
 	  // Principle 1: ADC reading
 	  double adc_reading = 1023/3.3 * incoming_voltage;
 	  //Principle 2:  Duty value
-	  int duty_value = (int) (adc_reading - (128/(930-128)) * 254);
+	  int duty_value = (int) ((adc_reading - 128)/(930-128) * 254);
 	  // Writing value into CCR sets the duty cycle for the PWM
 	  htim2.Instance->CRR1 = duty_value;
   }
