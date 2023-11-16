@@ -10,3 +10,13 @@ Time: 7:03 PM
 
 Changes:
 - Added electric schematic that illustrates the pin connections with the STM32 board and the different components
+
+Date: November 15, 2023
+Time: 10:35 PM
+
+Changes:
+- Implented the ultrasonic sensor in the STM32CUBEIDE and got it working with the MCU. This core feature is the basis of the rest of the project
+  and will be changed with the rest of the other features
+- Got LED to light up when object was detected, and turn off when the object was taken out of the way
+
+
