@@ -19,4 +19,11 @@ Changes:
   and will be changed with the rest of the other features
 - Got LED to light up when object was detected, and turn off when the object was taken out of the way
 
+Date: November 16, 2023
+Time: 10:06 PM
+
+Changes:
+- Implemented the passive buzzer in teh STM32CUBEIDE and got it working with the MCU. This component is the key component to the project and will be 
+paired with the ultrasonic sensor to alert users.
+- Got the passive buzzer to change frequencies
 
