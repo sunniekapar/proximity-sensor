@@ -23,7 +23,7 @@ Date: November 16, 2023
 Time: 10:06 PM
 
 Changes:
-- Implemented the passive buzzer in teh STM32CUBEIDE and got it working with the MCU. This component is the key component to the project and will be 
+- Implemented the passive buzzer in the STM32CUBEIDE and got it working with the MCU. This component is the key component to the project and will be 
 paired with the ultrasonic sensor to alert users.
 - Got the passive buzzer to change frequencies
 
