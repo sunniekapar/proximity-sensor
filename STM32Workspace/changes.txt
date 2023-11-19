@@ -25,5 +25,10 @@ Time: 10:06 PM
 Changes:
 - Implemented the passive buzzer in the STM32CUBEIDE and got it working with the MCU. This component is the key component to the project and will be 
 paired with the ultrasonic sensor to alert users.
-- Got the passive buzzer to change frequencies
+- Got the passive buzzer to change rate.
+
+Date: November 18, 2023
+Time: 9:42 PM
+- Implemented the main feature of the design: got the HCSR04 Sensor to work with the buzzer
+- The buzzer now alters the rate at which it makes a noise depending on the distance of the object to the design
 
